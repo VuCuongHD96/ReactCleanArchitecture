@@ -2,7 +2,6 @@ import { TodoItem } from "./TodoItem";
 
 export const TodoRepositoryToken = Symbol('TodoRepositoryType');
 
-interface TodorepositoryType {
-
+export interface TodoRepositoryType {
     getTodoList(): TodoItem[];
 }
