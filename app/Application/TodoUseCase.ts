@@ -1,7 +1,7 @@
 import { TodoRepositoryType, TodoRepositoryToken } from "@/Domain/TodoRepositoryType";
 import { container } from "tsyringe";
 
-type TodoUseCaseType = TodoRepositoryType;
+export type TodoUseCaseType = TodoRepositoryType;
 
 export class TodoUseCase implements TodoUseCaseType {
     
