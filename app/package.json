@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "next": "15.3.4",
+    "observable-hooks": "^4.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "reflect-metadata": "^0.2.2"
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "tsyringe": "^4.10.0"
   },
   "devDependencies": {
     "@types/node": "^20",
